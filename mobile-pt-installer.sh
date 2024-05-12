@@ -25,7 +25,7 @@ sudo pip3 install frida frida-tools objection
 echo -e "${green} [+] Downloading Android Studio. ${clear}"
 wget -P $download_folder $android_studio_url
 tar -xzvf "$download_folder/android-studio-2023.3.1.18-linux.tar.gz" -C $home_folder # Change the Android Studio name when updating the script.
-echo "${green} [+] Download completed. It can be accessed from your home directory. Run with ./android-studio/bin/studio.sh ${clear}"
+echo -e "${green} [+] Download completed. It can be accessed from your home directory. Run with ./android-studio/bin/studio.sh ${clear}"
 
 # Run Mob-SF using Docker.
 echo -e "${green} [+] Running Mob-SF with Docker. ${clear}"
