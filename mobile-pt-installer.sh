@@ -3,7 +3,7 @@
 # Mobile penetration test tools installation script.
 # By Goh Zavier. https://gohspace.com
 
-# Change the URL to the latest version of Android Stuido before running.
+# Change the URL to the latest version of Android Studio before running.
 android_studio_url="https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2023.3.1.18/android-studio-2023.3.1.18-linux.tar.gz"
 current_user=$(whoami)
 download_folder="/home/$current_user/Downloads"
