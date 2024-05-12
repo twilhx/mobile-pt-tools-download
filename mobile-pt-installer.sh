@@ -18,7 +18,7 @@ echo -e "${red} DO NOT run the script as sudo directly. It may break the script.
 
 # Update and download the tools required.
 echo -e "${green} [+] Downloading the required tools... ${clear}"
-sudo apt update && sudo apt install apktool docker.io android-sdk-platform-tools jadx burpsuite python3 
+sudo apt update && sudo apt install apktool docker.io android-sdk-platform-tools jadx burpsuite python3 -y
 sudo pip3 install frida frida-tools objection
 
 #Install Android Studio
