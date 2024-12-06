@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Mobile penetration test tools installation script.
-# By Goh Zavier. https://gohspace.com
 
 # Change the URL to the latest version of Android Studio before running.
 android_studio_url="https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.2.1.12/android-studio-2024.2.1.12-linux.tar.gz"
